@@ -1,12 +1,10 @@
 'use client';
 
 import React, { useEffect, useState } from 'react';
-import Toolbar from '@/app/components/toolbar';
-import SearchInput from '@/app/components/search-input';
-import AddPromotionButton from '@/app/components/add-promotion-button';
+import PromotionForm from '@/app/components/promotion-form';
 
 export interface PageProps {
-  params: Promise<{ id: string }>; // Params is a Promise
+  params: Promise<{ id: string }>; // Ensure params is a Promise
 }
 
 export default function Page({ params }: PageProps) {
@@ -24,13 +22,15 @@ export default function Page({ params }: PageProps) {
   }, [params]);
 
   if (!resolvedParams) {
-    // Optionally, show a loading state until params are resolved
+    // Optionally, show a loading state or handle the case when params are not yet resolved
     return <div>Loading...</div>;
   }
 
+  const { id } = resolvedParams; // Destructure the id from resolvedParams
+
   return (
-    <Toolbar action={<AddPromotionButton companyId={resolvedParams.id} />}>
-      <SearchInput />
-    </Toolbar>
+    <div className="py-6 px-10">
+      <PromotionForm companyId={id} />
+    </div>
   );
 }
