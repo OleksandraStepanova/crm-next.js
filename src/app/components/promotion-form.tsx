@@ -54,7 +54,7 @@ export default function PromotionForm({
 
   const handleSubmit = async (values: PromotionFieldValues) => {
     if (!company) {
-      throw new Error('Company data is not available');
+      return;
     }
     await mutateAsync({
       ...values,
