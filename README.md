@@ -74,19 +74,19 @@ Example:
 
 6. **Open the app in your browser** at http://localhost:3000.
 
-## Usage
+**Usage**
 
-### Dashboard
+**Dashboard**
 
 - View general statistics for all companies and their promotions.
 - Quickly navigate to detailed company information.
 
-### Companies Page
+**Companies Page**
 
 - Browse a list of all companies.
 - Click on a company to view its details and promotions.
 
-### Company Details
+**Company Details**
 
 - See all promotions related to a company.
 - Add new promotions with an easy-to-use form.
