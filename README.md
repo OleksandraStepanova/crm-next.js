@@ -4,12 +4,12 @@ A simple CRM system built with Next.js that helps manage company statistics and 
 
 ## Description
 
-1. Dashboard: Displays general statistics for all companies and their promotions.
-2. Companies: A detailed view of all companies with the ability to:
+- Dashboard: Displays general statistics for all companies and their promotions.
+- Companies: A detailed view of all companies with the ability to:
 
-- Navigate to individual company pages.
-- View all promotions for a specific company.
-- Add new promotions directly from the company's page.
+1. Navigate to individual company pages.
+2. View all promotions for a specific company.
+3. Add new promotions directly from the company's page.
 
 ### Key Features:
 
