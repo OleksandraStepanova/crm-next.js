@@ -74,7 +74,7 @@ Example:
 
 6. **Open the app in your browser** at http://localhost:3000.
 
-**Usage**
+## Usage
 
 **Dashboard**
 
