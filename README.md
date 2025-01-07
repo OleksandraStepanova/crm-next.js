@@ -49,30 +49,30 @@ A simple CRM system built with Next.js that helps manage company statistics and 
 
 ## Installation
 
-1. Clone this repository:
+1. **Clone this repository:**
 
 `git clone https://github.com/OleksandraStepanova/crm-next.js`
 
-2. Navigate to the project directory:
+2. **Navigate to the project directory:**
 
 `cd crm-next`
 
-3. Install dependencies:
+3. **Install dependencies:**
 
 `npm install`
 
-4. Configure the environment variables:
+4. **Configure the environment variables:**
    Create a .env.local file in the root directory and add your variables (e.g., database URL, API keys).
 
 Example:
 
 `NEXT_PUBLIC_PROJECT_TOKEN = 65c21c4ff7e6ea59682aa7e1`
 
-5. Run the development server:
+5. **Run the development server:**
 
 `npm run dev`
 
-6. Open the app in your browser at http://localhost:3000.
+6. **Open the app in your browser** at http://localhost:3000.
 
 ## Usage
 
