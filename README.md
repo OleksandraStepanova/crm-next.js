@@ -1,36 +1,99 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# CRM Dashboard
 
-## Getting Started
+A simple CRM system built with Next.js that helps manage company statistics and promotions. The app provides an overview of all companies and allows users to view, manage, and add promotions for individual companies.
 
-First, run the development server:
+## Description
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Dashboard: Displays general statistics for all companies and their promotions.
+- Companies: A detailed view of all companies with the ability to:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+* Navigate to individual company pages.
+* View all promotions for a specific company.
+* Add new promotions directly from the company's page.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Key Features:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Dashboard:
 
-## Learn More
+Provides a clear overview of company and promotion statistics.
+User-friendly interface for quick insights.
 
-To learn more about Next.js, take a look at the following resources:
+- Companies Page:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Lists all companies with key details.
+Enables navigation to individual company pages for more detailed management.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Company Details Page:
 
-## Deploy on Vercel
+Displays a company's promotions.
+Allows the addition of new promotions.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Add Promotion:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Easy-to-use form for adding promotions to a specific company.
+
+## Technologies Used
+
+- Frontend:
+
+**Next.js** — React framework for server-side rendering and static site generation.
+**React** — User interface library.
+**Tailwind CSS (optional)** — For styling.
+
+- Backend:
+
+**mockapi.io**
+
+## Installation
+
+1. Clone this repository:
+
+`git clone https://github.com/OleksandraStepanova/crm-next.js`
+
+2. Navigate to the project directory:
+
+`cd crm-next`
+
+3. Install dependencies:
+
+`npm install`
+
+4. Configure the environment variables:
+   Create a .env.local file in the root directory and add your variables (e.g., database URL, API keys).
+
+Example:
+
+`NEXT_PUBLIC_PROJECT_TOKEN = 65c21c4ff7e6ea59682aa7e1`
+
+5. Run the development server:
+
+`npm run dev`
+
+6. Open the app in your browser at http://localhost:3000.
+
+## Usage
+
+### Dashboard
+
+- View general statistics for all companies and their promotions.
+- Quickly navigate to detailed company information.
+
+### Companies Page
+
+- Browse a list of all companies.
+- Click on a company to view its details and promotions.
+
+### Company Details
+
+- See all promotions related to a company.
+- Add new promotions with an easy-to-use form.
+
+## Future Improvements
+
+- Add user authentication and role-based access control.
+- Enable editing and deleting promotions.
+- Enhance statistics visualization with charts or graphs.
+
+## Contributors
+
+Oleksandra Stepanova — Full-Stack Developer
