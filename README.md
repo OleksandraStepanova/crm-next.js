@@ -11,7 +11,7 @@ A simple CRM system built with Next.js that helps manage company statistics and 
 2. View all promotions for a specific company.
 3. Add new promotions directly from the company's page.
 
-### Key Features:
+## Key Features:
 
 **Dashboard**:
 
