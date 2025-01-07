@@ -37,7 +37,9 @@ A simple CRM system built with Next.js that helps manage company statistics and 
 - Frontend:
 
 **Next.js** — React framework for server-side rendering and static site generation.
+
 **React** — User interface library.
+
 **Tailwind CSS (optional)** — For styling.
 
 - Backend:
