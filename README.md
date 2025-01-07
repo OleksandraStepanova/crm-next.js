@@ -34,17 +34,17 @@ A simple CRM system built with Next.js that helps manage company statistics and 
 
 ## Technologies Used
 
-- Frontend:
+**Frontend**:
 
-**Next.js** — React framework for server-side rendering and static site generation.
+- **Next.js** — React framework for server-side rendering and static site generation.
 
-**React** — User interface library.
+- **React** — User interface library.
 
-**Tailwind CSS (optional)** — For styling.
+- **Tailwind CSS (optional)** — For styling.
 
-- Backend:
+**Backend**:
 
-**mockapi.io**
+- **mockapi.io**
 
 ## Installation
 
