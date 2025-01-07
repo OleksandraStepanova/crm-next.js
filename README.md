@@ -5,6 +5,7 @@ A simple CRM system built with Next.js that helps manage company statistics and 
 ## Description
 
 **Dashboard**: Displays general statistics for all companies and their promotions.
+
 **Companies**: A detailed view of all companies with the ability to:
 
 1. Navigate to individual company pages.
